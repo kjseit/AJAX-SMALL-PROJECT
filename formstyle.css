@@ -1,0 +1,21 @@
+#a{
+
+			
+
+	position:relative;
+	left: 30%;
+	width:500px;
+	background-color:lightgray;
+	padding: 30px;
+
+		}
+		#a div{
+			margin: 10px;
+		}
+		input,select{
+			display:block;
+			width:100%;
+			padding:10px;
+			border-radius: 4px
+
+		}

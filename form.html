@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="formstyle.css">
+<link rel="stylesheet" type="text/css" href="paper.bootstrap.min.css">
+
+<script type="text/javascript" src="formscript.js"></script>
+	<title></title>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div id="a">
+<form action="#" method="post" class="form-inline">
+<div>
+<h1>Application form</h1>
+	<label>name</label>
+	<input type="text" name="username">
+	</div>
+	<div>
+		<label>Select state</label>
+	<select onchange="fetchCities(this.value)">
+	<option>Select state</option>
+		<option>bihar</option>
+		<option>MP</option>
+		<option>UP</option>
+
+	</select>
+	</div>
+
+<div>
+		<label>Select city</label>
+	<select id="cities">
+	<option>first select state</option>
+		
+
+	</select>
+	</div>
+
+
+<div>
+	<input type="submit" value="submit">
+</div>
+
+
+
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>
